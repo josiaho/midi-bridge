@@ -1,0 +1,167 @@
+body {
+	font-family: 'Proxima Nova', 'Helvetica Neue', sans-serif;
+	padding: 1.1em 0.2em 0.2em;
+}
+
+#indicator {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #f6f6f6;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	color: silver;
+	z-index: 1;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+#indicator.a {
+	color: white;
+	background-color: #61c248;
+}
+#modal {
+	z-index: 2;
+	background-color: rgba(255, 255, 255, 0.97);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 1em;
+	display: none;
+}
+.bigDelete {
+	font-size: 3em;
+	display: inline-block;
+	position: absolute;
+	right: 0.4em;
+	cursor: pointer;
+	color: #2173d9;
+}
+
+.h {
+	border-bottom: 2px solid #2173d9;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+.mh {
+	text-align: center;
+	padding-top: 3em;
+}
+.bigMidi {
+	font-size: 4em;
+	text-align: center;
+	color: silver;
+}
+.area {
+	position: relative;
+}
+.area.a {
+	color: white;
+	background-color: #2173d9;
+}
+.area.a .arrow {
+	border-left: 18px solid white;
+}
+.area.a .h {
+	border-bottom: 2px solid white;
+}
+.area.a .midi {
+	color: #114382;
+}
+label {
+	font-weight: bold;
+	font-size: 0.8em;
+	color: gray;
+}
+input {
+	font-size: 1.2em;
+	padding: 0.4em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	outline: none;
+	border: 2px solid #e3e3e3;
+	-webkit-appearance:none;
+	border-radius: 4px;
+}
+input:focus {
+	border: 2px solid #2173d9;
+}
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 18px solid #2173d9;
+	position: absolute;
+	top: 0.7em;
+	right: 1.2em;
+	cursor: pointer;
+}
+.arrow:hover {
+	border-left: 18px solid black;
+}
+.action {
+	text-align: left;
+}
+.action > div {
+	display: inline-block;
+}
+.action .delete {
+	display: none;
+	color: silver;
+	margin-left: 0.5em;
+}
+.action:hover .delete {
+	display: inline-block;
+}
+.o {
+	cursor: pointer;
+}
+.o:hover {
+	color: black;
+}
+.h.o.a {
+	margin-top: 0.4em;
+}
+.midi {
+	position: absolute;
+	color: silver;
+	cursor: pointer;
+}
+.midi:before {
+	content: 'MIDI: ';
+}
+.midi:hover {
+	color: #2173d9;
+}
+
+
+.button {
+	display: block;
+	padding: 12px 20px 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2173d9;
+	border: 2px solid #2173d9;
+	border-radius: 4px;
+	cursor: default;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	margin-top: 0.5em;
+}
+.button.b {
+	cursor: pointer;
+}
+.button.b:hover {
+	background-color: #2173d9;
+	color: white;
+}
