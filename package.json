@@ -25,5 +25,7 @@
     "atem": "0.1.4",
     "midi": "0.9.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": "./bin/main.js"
 }
