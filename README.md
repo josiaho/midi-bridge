@@ -6,11 +6,11 @@ A utility for ProPresenter 6 and midi devices to control iTunes, Spotify and ATE
 ###Install
 ====
 
-	$ npm install -g midi-bridge
+	$ npm install midi-bridge
 
 ###Run
 ====
-	$ midi-bridge
+	$ node main.js
 
 Manage Triggers and Actions via the GUI: [http://localhost:3030](http://localhost:3030):
 
