@@ -1,6 +1,6 @@
 {
   "name": "midi-bridge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility for ProPresenter 6 and midi devices to control iTunes, Spotify and ATEM switchers.",
   "author": "Josiah Oslund <me@josiaho.com>",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "main": "main.js",
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/josiaho/midi-bridge"
+    "type": "git",
+    "url": "https://github.com/josiaho/midi-bridge"
   },
   "keywords": [
-  	"propresenter",
-  	"spotify",
-  	"itunes",
-  	"atem",
-  	"midi"
+    "propresenter",
+    "spotify",
+    "itunes",
+    "atem",
+    "midi"
   ],
   "dependencies": {
     "express": "4.12.4",
