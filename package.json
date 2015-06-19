@@ -1,6 +1,6 @@
 {
   "name": "midi-bridge",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A utility for ProPresenter 6 and midi devices to control iTunes, Spotify and ATEM switchers.",
   "author": "Josiah Oslund <me@josiaho.com>",
   "scripts": {
