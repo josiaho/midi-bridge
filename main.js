@@ -16,19 +16,8 @@ var midiPort = null;
 var db = {
 	'id': 3,
 	'atemIP': '192.168.1.240',
-	'triggers': {
-		1: {
-			'm':'', // Midi Note
-			'a': [2] // Actions to Trigger
-		}
-	},
-	'actions': {
-		2: {
-			't': 1, // 1:Play Spotify, 2: Pause Spotify, 3: Play iTunes, 4: Pause iTunes, 5: Cut to ATEM
-			'd': 0, // Duration (seconds) for Spotify/iTunes Fade
-			'a': 0 // ATEM sourceID
-		}
-	}
+	'triggers': {},
+	'actions': {}
 };
 
 // START SERVER
