@@ -23,7 +23,8 @@
     "socket.io": "1.3.5",
     "node-osascript": "1.0.2",
     "atem": "0.1.4",
-    "midi": "0.9.3"
+    "midi": "0.9.3",
+    "minimatch": "*"
   },
   "license": "MIT"
 }
