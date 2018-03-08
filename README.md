@@ -2,7 +2,7 @@
 
 A utility for ProPresenter 6 and midi devices to control iTunes, Spotify and ATEM switchers.
 
-Or download a pre-built binary: [https://github.com/josiaho/Midi-Spotify](https://github.com/josiaho/Midi-Spotify)
+Or download a pre-built binary: [Midi-Spotify](https://github.com/josiaho/Midi-Spotify)
 
 ##Install
 
